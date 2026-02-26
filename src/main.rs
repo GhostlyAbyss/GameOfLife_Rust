@@ -3,6 +3,7 @@ use crate::screen_wrapper::RandomApp;
 mod game_of_life;
 pub mod app_screen;
 mod screen_wrapper;
+pub mod pathfinder;
 
 fn main() -> eframe::Result {
     let options = eframe::NativeOptions::default();

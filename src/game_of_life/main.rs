@@ -117,9 +117,7 @@ impl GameOfLifeApp {
             }
         }
     }
-}
 
-impl GameOfLifeApp {
     pub fn update(&mut self, ctx: &Context, _frame: &mut Frame) -> bool {
         let mut go_back = false;
 
